@@ -1,0 +1,42 @@
+.view-captain-orders {
+  width: 83%;
+
+}
+
+.view-captain-orders-title {
+  margin-top: 2rem;
+  margin-bottom: 2.6rem;
+  text-align: end;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-right: 5rem;
+}
+
+.view-captain span {
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.view__captain__paragraph {
+  font-weight: bold;
+}
+
+.viewModal span {
+  font-weight: bold;
+  font-family: cairo;
+}
+
+.viewModal button {
+  background-color: #f44;
+  font-weight: bold;
+  color: aliceblue;
+  font-family: cairo;
+}
+
+.viewModal .ant-table table {
+  border: 1px solid #eee;
+}
+
+.view-captain-orders .table-container {
+  width: 90%;
+}

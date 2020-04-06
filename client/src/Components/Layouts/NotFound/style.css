@@ -1,0 +1,23 @@
+.pageNotFoundMain {
+  line-height: 5rem;
+  padding-top: 25vh;
+}
+
+.notFoundTitle {
+    color: #020406ba;
+    font-size: 3rem;
+    margin-left: 1.2rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
+    font-weight: 600;
+}
+
+.notFoundNumber{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #ce1616;
+}

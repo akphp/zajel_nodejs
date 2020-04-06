@@ -1,0 +1,234 @@
+.containercustomers {
+  display: flex;
+}
+
+.conatinercustomers__customer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.containercustomers__customer-rangpicker {
+  direction: rtl;
+}
+
+.filtercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 75%;
+}
+
+.addcustomer {
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+}
+
+.filtercontainer__orderdate {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.filtercontainer__ordername {
+  width: 15rem;
+  direction: rtl;
+}
+
+.tablecustomer-container {
+  width: 75vw;
+  margin-left: 2vw;
+}
+
+.filtercontainer__orderdate-date {
+  margin-left: 2rem;
+}
+
+.table-container {
+  width: 75vw;
+  margin-left: 2vw;
+}
+
+.ant-modal-close {
+  left: 0;
+}
+
+.add-captain-container-left {
+  width: 42%;
+}
+
+.add-captain-container-right {
+  width: 42%;
+  margin-left: 5rem;
+}
+
+.add-captain-container-center {
+  margin: 0.2rem 2.2rem;
+  width: 1.5px;
+}
+
+.add-captain__form {
+  width: 100%;
+  display: flex;
+  margin-left: 0rem;
+}
+
+.add-captain__popup .ant-modal-content {
+  width: 130%;
+}
+
+.add-captain__popup .ant-modal-header {
+  direction: rtl;
+}
+
+.add-captain__popup .ant-modal-body {
+  padding-bottom: 0px;
+}
+
+.add-captain__popup .ant-select {
+  right: 0.1rem;
+  border: 0.1rem solid #ccc;
+  border-radius: 0.4rem;
+  box-sizing: border-box;
+}
+
+.add-captain__popup .ant-upload {
+  margin-left: 90px;
+  margin-top: -21px;
+}
+
+.add-captain__popup .ant-modal-footer {
+  text-align: unset;
+  margin: 1em auto 0;
+}
+
+.add-captain__popup .ant-form-item-required::before {
+  display: inline-block;
+  margin-right: 4px;
+  color: black;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+  content: ":";
+}
+
+.add-captain__popup .ant-form-item-label > label::after {
+  content: "*";
+  position: relative;
+  color: #f5222d;
+  top: -0.5px;
+}
+
+.add-captain__popup .ant-select,
+.add-captain__popup .ant-cascader-picker {
+  position: absolute;
+}
+
+.add-captain__popup .ant-input {
+  direction: rtl;
+}
+
+.btn--upload {
+  position: absolute;
+  right: 1.5rem;
+}
+
+.add-captain__popup .image__name {
+  position: absolute;
+  top: 2.5rem;
+  width: fit-content;
+  right: 1.5rem;
+}
+
+.add-captain-container-right .ant-row {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}
+
+.add-captain-container-left .ant-row {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+}
+
+.add-captain-container-left .ant-input {
+  width: 170px !important;
+}
+
+.add-captain-container-right .ant-input {
+  width: 170px !important;
+}
+
+.add-captain__form .ant-modal {
+  margin: 0 19%;
+}
+
+.ant-calendar-footer-btn {
+  display: none;
+}
+
+.ant-calendar {
+  direction: rtl !important;
+}
+
+.ant-calendar-picker {
+  direction: rtl;
+  border-radius: 2px !important;
+}
+
+.ant-calendar-body {
+  direction: rtl !important;
+}
+
+.ant-calendar-range .ant-calendar-month-panel-body {
+  direction: rtl !important;
+}
+
+.ant-calendar-range .ant-calendar-year-panel-body {
+  direction: rtl !important;
+}
+
+.ant-calendar-range-left {
+  float: right !important;
+}
+
+.ant-calendar-range-right {
+  float: left !important;
+}
+
+.ant-calendar-header .ant-calendar-prev-year-btn {
+  left: 15rem !important;
+}
+
+.ant-calendar-header .ant-calendar-prev-month-btn {
+  left: 14rem !important;
+}
+
+.ant-calendar-header .ant-calendar-next-month-btn {
+  right: 14rem !important;
+}
+
+.ant-calendar-header .ant-calendar-next-year-btn {
+  right: 15rem !important;
+}
+
+.ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {
+  border-color: var(--main-component-color, #212a63);
+}
+
+.ant-calendar-selected-date .ant-calendar-date:hover,
+.ant-calendar-selected-start-date .ant-calendar-date:hover,
+.ant-calendar-selected-end-date .ant-calendar-date:hover {
+  background: var(--main-component-color, #212a63) !important;
+}
+
+.sweet-loading {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}

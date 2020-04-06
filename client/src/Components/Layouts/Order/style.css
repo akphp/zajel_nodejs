@@ -1,0 +1,184 @@
+.title {
+    margin: '0px 10px';
+}
+.ant-form-item-label{
+    font-family: cairo;
+}
+.ant-modal-title {
+    font-size: 1.5rem;
+    font-family: cairo;
+}
+
+.userName {
+    direction: 'rtl';
+    font-family: cairo;
+}
+
+.phone {
+    direction: 'rtl';
+    font-family: cairo;
+}
+
+.addcustomer {
+    margin-top: 1rem;
+    margin-left: 3.5rem;
+    font-family: cairo;
+}
+
+.captainName {
+    direction: 'rtl';
+    font-family: cairo;
+}
+
+.itam {
+    direction: 'rtl';
+    font-family: cairo;
+}
+
+.markit {
+    direction: 'rtl';
+    font-family: cairo;
+}
+
+.address {
+    display: "block";
+    font-family: cairo;
+}
+
+.filtercontainer__orderdate {
+    display: flex;
+    flex-direction: row;
+    width: 50%
+}
+
+.filtercontainer__ordername {
+    width: 15rem;
+    direction: rtl;
+}
+
+.table {
+    margin-right: 10px;
+}
+
+.filtercontainer__orderdate-date {
+    margin-left: 2rem;
+}
+
+.ant-modal-close {
+    left: 0;
+}
+
+.ant-form-vertical .ant-form-item-label {
+    text-align: right;
+}
+
+.right-container {
+    margin-left: 15px;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+.left-container {
+    margin-left: 5px;
+    width: 50%;
+}
+
+.ant-row {
+    display: flex !important;
+}
+
+/* .ant-form-item-control-wrapper {
+    width: 75% !important
+} */
+
+.modalcontainer {
+    width: 783px !important;
+    direction: rtl;
+}
+
+.ant-modal-footer {
+    text-align: left !important;
+    direction: ltr !important;
+}
+
+.nameconatainer {
+    display: inline-block;
+    margin-top: 15px;
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+}
+
+.phone input {
+    width: 126px;
+}
+
+.auto-complete-error {
+    color: #f5222d;
+    font-size: 10px;
+}
+
+.items .ant-form-item-control-wrapper {
+    position: absolute;
+    right: 25%;
+    width: 342px;
+}
+.singleItem{
+    margin-right: 5rem;
+    width: 25.7rem;
+}
+.items label::before, .markit label::before, .captainName label::before{
+    content: '*';
+    color: #f5222d;
+}
+.modalcontainer .ant-form-item-label {
+    margin-left: 10px;
+}
+.modalcontainer .ant-row ant-form-item {
+    width: 284px;
+}
+.modalcontainer .ant-col .ant-form-item-control-wrapper {
+    margin-right: -33px;
+    width: 339px;
+}
+.modalcontainer .ant-btn .ant-btn-dashed {
+    width: 87%;
+}
+.modalcontainer .items label::before, .markit label::before, .captainName label::before {
+    content: '*';
+    color: #f5222d;
+    margin-left: 3px;
+}
+.modalcontainer .ant-form-item-required::before {
+    display: inline-block;
+    margin-right: 4px;
+    color: #f5222d;
+    font-size: 14px;
+    font-family: SimSun, sans-serif;
+    line-height: 1;
+    content: '*';
+    margin-left: 3px;
+}
+.modalcontainer .ant-row .ant-form-item {
+    margin-right: 79px;
+    width: 406px;
+}
+.modalcontainer .ant-input {
+    margin-left: 4px;
+}
+.modalcontainer #form_in_modal_phone2 {
+    width: 129px;
+    margin-right: -4px;
+}
+.phone-lable-and-input {
+    display: flex;
+}
+.phone   {
+    width: 209px;
+}
+.phone .ant-form-item-control-wrapper {
+    width: 126px;
+}

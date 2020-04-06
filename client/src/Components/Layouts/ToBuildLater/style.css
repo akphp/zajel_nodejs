@@ -1,0 +1,59 @@
+.in-Progress {
+    position: absolute;
+}
+.onProgress {
+    line-height: 5rem;
+    width: 30vw;
+}
+
+.onProgressIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #ce1616;
+}
+
+.onProgressTitle {
+    color: #000000;
+    font-size: 3rem;
+    margin-left: 1.2rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-family: cairo;
+    font-weight: 600;
+
+}
+
+.onProgress {
+    line-height: 5rem;
+    padding-top: 25vh;
+}
+
+.onProgressIcon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 10rem;
+    color: #ce1616;
+}
+
+.onProgressTitle {
+    font-size: 3rem;
+    margin-left: 1.2rem;
+    letter-spacing: 0.1rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 7rem;
+    font-weight: 600;
+}
+
+.anticon-spin {
+    font-size: 6rem;
+}
+
+.anticon-spin {
+    font-size: 6rem;
+}

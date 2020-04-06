@@ -1,0 +1,264 @@
+.containercustomers {
+  display: flex;
+}
+
+.conatinercustomers__customer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+}
+
+.containercustomers__customer-rangpicker {
+  direction: rtl;
+}
+
+.filtercontainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  width: 75%;
+}
+
+.addcustomer {
+  margin-top: 1rem;
+  margin-left: 3.5rem;
+}
+
+.filtercontainer__orderdate {
+  display: flex;
+  flex-direction: row;
+  width: 50%;
+}
+
+.filtercontainer__ordername {
+  width: 15rem;
+  direction: rtl;
+}
+
+.table {
+  margin-right: 10px;
+}
+
+.filtercontainer__orderdate-date {
+  margin-left: 2rem;
+}
+
+.ant-modal-close {
+  left: 0;
+}
+
+.ant-form-vertical .ant-form-item-label {
+  text-align: right;
+}
+
+.modalform__right-container {
+  margin-right: 15px;
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.modalform__left-container {
+  margin: 0px 15px;
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+.modalform__right-container .ant-row {
+  display: flex !important;
+}
+
+.modalform__left-container .ant-row {
+  display: flex !important;
+}
+
+.modalform_formitem .ant-form-item-control-wrapper {
+    width: 75% !important
+} 
+
+.modalcontainer {
+  width: 783px !important;
+  direction: rtl;
+}
+
+.ant-modal-footer {
+  text-align: left !important;
+  direction: ltr !important;
+}
+
+.nameconatainer {
+  display: inline-block;
+  margin-top: 15px;
+  color: #f5222d;
+  font-size: 14px;
+  font-family: SimSun, sans-serif;
+  line-height: 1;
+}
+
+.modalform {
+  display: flex;
+}
+
+.modalform_formitem-select {
+  direction: ltr;
+  margin-right: -5px !important;
+  width: 83px !important;
+}
+
+.modalform .has-error .ant-form-explain, .has-error .ant-form-split {
+    font-size: 9px !important;
+}
+.modalcontainer .has-error .ant-form-explain, .has-error .ant-form-split {
+  font-size: 10px !important;
+}
+.modalform_phone .has-error .ant-form-explain,
+.has-error .ant-form-split {
+  font-size: 10px !important;
+}
+.passwordinput {
+  margin-right: 16px;
+}
+
+.addressinput {
+  margin-right: 85px;
+  margin-left: 3px;
+}
+
+.emailinput {
+  margin-right: 45px;
+}
+
+.emailinput-add {
+  margin-right: 9px;
+  margin-left: -9px;
+}
+
+.addressinput-add {
+  margin-right: 44px;
+  margin-left: 3px;
+}
+
+.modalform__left-container .has-error .ant-form-explain,
+.has-error .ant-form-split {
+  margin-top: 1px !important;
+  margin-right: 15px;
+}
+
+.modalform__left-container .addressInput .has-error .ant-form-explain,
+.has-error .ant-form-split {
+  margin-top: 1px !important;
+  margin-right: 55px;
+}
+
+.ant-calendar-footer-btn {
+  display: none;
+}
+
+.ant-calendar {
+  direction: rtl !important;
+}
+
+.ant-calendar-picker {
+  direction: rtl;
+  border-radius: 2px !important;
+}
+
+.ant-calendar-body {
+  direction: rtl !important;
+}
+
+.ant-calendar-range .ant-calendar-month-panel-body {
+  direction: rtl !important;
+}
+
+.ant-calendar-range .ant-calendar-year-panel-body {
+  direction: rtl !important;
+}
+
+.ant-calendar-range-left {
+  float: right !important;
+}
+
+.ant-calendar-range-right {
+  float: left !important;
+}
+
+.ant-calendar-header .ant-calendar-prev-year-btn {
+  left: 15rem !important;
+}
+
+.ant-calendar-header .ant-calendar-prev-month-btn {
+  left: 14rem !important;
+}
+
+.ant-calendar-header .ant-calendar-next-month-btn {
+  right: 14rem !important;
+}
+
+.ant-calendar-header .ant-calendar-next-year-btn {
+  right: 15rem !important;
+}
+
+.ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {
+  border-color: var(--main-component-color, #212a63);
+}
+
+.ant-calendar-selected-date .ant-calendar-date:hover,
+.ant-calendar-selected-start-date .ant-calendar-date:hover,
+.ant-calendar-selected-end-date .ant-calendar-date:hover {
+  background: var(--main-component-color, #212a63) !important;
+}
+
+.sweet-loading {
+  height: 100vh;
+  display: flex;
+  align-items: center;
+}
+
+.ant-modal-mask {
+  background-color: rgba(0, 0, 0, 0.3) !important;
+}
+
+.modalform_phone .ant-input {
+  width: 158px;
+  margin-left: 5px;
+}
+
+.modalform__left-container .ant-input {
+  width: 200px;
+}
+
+.has-error .ant-form-explain,
+.has-error .ant-form-split {
+  width: 163px;
+}
+.show-help-leave,
+.show-help-enter,
+.show-help-enter-active,
+.show-help-enter-leave {
+    font-size: 12px !important;
+}
+.modalform_phone
+.show-help-leave,
+.show-help-enter,
+.show-help-enter-active,
+.show-help-enter-leave {
+  font-size: 10px !important;
+  width: 163px !important;
+}
+.customer-error{
+  margin:100px auto;
+  text-align: center;
+}
+
+.filtercontainer .ant-btn{
+  width: 118px;
+  background: #ff4343;
+  border: none;
+  color: white
+}

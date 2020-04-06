@@ -1,0 +1,109 @@
+.container {
+    position: fixed;
+    right: 0rem;
+    min-height: 100vh;
+    background: #2B2A37;
+    width: 15.4vw;
+    float: right;
+    font-family: 'cairo';
+    z-index: 3;
+    overflow-y: scroll;
+    overflow-x: hidden;
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+}
+
+.container::-webkit-scrollbar {
+    display: none;
+}
+
+.sidebar {
+    width: 15vw;
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+    padding-top: 1rem;
+    color: white;
+    display: flex;
+    background-color: #2B2A37;
+    flex-direction: column;
+    font-size: 1vw;
+    height: 100vh;
+}
+
+.sidebar__header {
+    position: absolute;
+    top: 0rem;
+    right: 4.5rem;
+    color: orange;
+    margin-top: 1.4rem;
+    font-family: 'cairo';
+}
+
+.sidebar__bar {
+    margin-top: 6vw;
+    margin-right: 2rem;
+    text-align: right;
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    line-height: 2vh;
+}
+
+.sidebar__links {
+    margin: .6rem .8rem .6rem 1.6rem;
+    text-decoration: none;
+    color: white;
+}
+
+.sidebar__dropdowncontainer {
+    display: flex;
+    flex-direction: column;
+    margin-right: 23px;
+    margin-top: -1rem;
+    margin-bottom: 1rem;
+    font-size: .8vw;
+}
+
+.hidden {
+    display: none;
+    transition: all 2s ease-in-out;
+}
+
+.block {
+    display: flex;
+    transition: all 2s ease-in-out;
+}
+
+.home {
+    margin-right: -11px;
+    margin-bottom: 1.5rem;
+}
+
+.lists {
+    margin-right: -1px;
+    margin-bottom: 1.5rem;
+    cursor: pointer;
+}
+
+.icon-style {
+    margin-left: 1.3rem;
+}
+
+.icons-style {
+    margin-left: 1rem;
+}
+
+.iconstyle {
+    margin-left: .5rem;
+}
+
+@media only screen and (max-width: 700px) {
+    .container {
+        width: 25vw;
+    }
+    .sidebar {
+        font-size: 0.8rem;
+        width: 25vw;
+    }
+}

@@ -1,0 +1,15 @@
+.box {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 8rem;
+    width: 76vw;
+    margin-right: 181px;
+}
+
+.box__error {
+    color: red;
+    width: 100%;
+    text-align: center;
+    margin-top: 2rem;
+}

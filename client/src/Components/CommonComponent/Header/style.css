@@ -1,0 +1,24 @@
+.header {
+    display: flex;
+    width: 78vw;
+    direction: rtl;
+    margin-top: 23px;
+    padding-right: 2vw;
+    align-self: flex-end;
+    margin-right: 19.5vw;
+    border-bottom: groove;
+    border-color: #2b2a374f;
+    border-width: 2px;
+    float: right;
+}
+.header__line{
+    overflow: hidden;
+}
+
+.icon {
+    margin-left: 1vw;
+    font-size: 2.2vw;
+}
+.header .anticon svg{
+    margin-bottom: 5px;
+}

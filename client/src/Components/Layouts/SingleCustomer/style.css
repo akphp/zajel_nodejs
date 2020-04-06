@@ -1,0 +1,112 @@
+.profile {
+    width: 85%;
+    font-size: 13px;
+    border: 1px solid white;
+}
+
+.profile__info {
+    display: flex;
+    flex-wrap: wrap;
+    width: 92%;
+    flex-direction: row-reverse;
+    padding: 1rem;
+    margin-right: 2rem;
+    margin-left: 1rem;
+    border-bottom: 2px solid #80808063;
+}
+
+.profile__box {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    min-width: 11rem;
+    padding: 0.3rem;
+    margin: 1rem 0.5rem;
+}
+
+.profile__box__title {
+    font-weight: bolder;
+    margin-left: 1rem;
+}
+
+.profile__value {
+    color: #353535;
+}
+
+.profile__box__title::before {
+    content: ':';
+    margin-right: 0.5rem;
+}
+
+.profile__info__title {
+    width: 100vw;
+    text-align: end;
+}
+
+.avatar {
+    width: 3.5rem;
+    margin-bottom: 0.6rem;
+    height: 3.5rem;
+    border-radius: 50%;
+    border: 1px solid gray;
+    padding: 1px;
+}
+
+.deleteModal .ant-modal-footer,
+.viewModal .ant-modal-footer {
+    text-align: left;
+}
+
+.deleteModal {
+    direction: "rtl"
+}
+
+.deleteModal .ant-btn-primary {
+    background: rgb(255, 68, 68);
+    border: none;
+    margin-right: 1rem;
+}
+
+.viewModal .ant-btn-primary {
+    display: none;
+}
+
+.view__captain {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-right: 1rem;
+}
+
+.view__captain-box {
+    display: flex;
+    margin-left: 1.3rem;
+    padding: 0.3rem;
+}
+
+.viewModal .ant-modal-content {
+    width: 105%;
+}
+
+.viewModal .ant-modal-title {
+    font-weight: bold;
+    font-family: 'cairo';
+}
+
+.view__captain-value {
+    font-weight: lighter;
+    margin-right: 0.7rem;
+}
+
+.view__captain-table {
+    width: 100%;
+    margin: 1rem 0;
+}
+
+.profile__orders .view-captain-orders-title {
+    margin-right: 7rem;
+}
+
+.profile__orders .table-container {
+    width: 90%;
+}

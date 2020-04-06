@@ -1,0 +1,45 @@
+.navbar{
+    background-color: #201F2B;
+    height: 3.5rem;
+    width: 86vw;
+    z-index: 2;
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    position: relative;
+    margin-right: 15vw;
+}
+
+.control-board{
+    line-height: 3.2rem;
+    height: 5rem;
+    width: 20rem;
+    color: #fdeeee;
+    font-size: 1.6rem;
+    direction: rtl;
+    margin-right: 45px;
+}
+
+.circle{
+    border-radius: 50%;
+    text-align: center;
+    height: 2.7rem;
+    width: 2.7rem;
+    line-height: 2.5rem;
+    margin-left: 4rem;
+    font-weight: 600;
+    background-color: #88B0D6;
+    display: inline;
+    margin-top: 0.29rem;
+    font-size: 1.6rem;
+}
+
+.logout{
+    margin-top: 1rem;
+    color: #ecdfdf;
+    margin-left: 1.5rem;
+    cursor: pointer;
+}
+.navbar__container{
+    display: flex;  
+}

@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css?family=Lateef&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Cairo&display=swap');
+.html {
+  font-size: 62.5%;
+  --antd-wave-shadow-color: #212a63 !important;
+  direction: rtl;
+  overflow: scroll;
+  overflow-x: hidden;
+  font-family: Cairo;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Cairo", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+
+:root {
+  --main-component-color: #2b2a37;
+  --main-font-color: #000000;
+  --add-button-color: #28a745;
+  --cancel-button-color: #c4c4c4;
+  --delete-button-color: #ff4343;
+  --table-names-color: #8000ff;
+  --inprogress-color: rgb(239, 208, 0);;
+}
+.header {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.8 rem;
+}
+p {
+  font-family: Cairo;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 1.6 rem;
+  color: #000000;
+}
+h2,
+h3 {
+  font-family: "Cairo";
+  font-style: normal;
+  font-weight: bold;
+  font-size: 1.6 rem
+}
+::-webkit-scrollbar {
+  width: 5px;
+  background: #201F2B;
+}
+::-webkit-scrollbar-thumb {
+  width: 50px;
+  background: #c4c4c4b1
+}

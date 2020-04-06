@@ -1,0 +1,171 @@
+.ordersManagement-bars-container {
+  font-family: Cairo;
+  display: flex;
+  flex-direction: row-reverse;
+  overflow-x: hidden;
+}
+.ordersManagement-main-container {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  float: right;
+}
+.ordersManagement_sub-container {
+  display: flex;
+  height: 79.3vh;
+  flex-direction: row-reverse;
+  margin-right: 18.7vw;
+}
+.ordersManagement_filters-container {
+  display: flex;
+  flex-direction: row-reverse;
+  width: 79vw;
+  justify-content: flex-start;
+}
+.ordersManagement_filters-container-timeFilter {
+  display: flex;
+  flex-direction: column;
+  margin-right: 4vw;
+}
+.ordersManagement-bars-container .ant-calendar-picker-container {
+  left: calc(100% - 812px) !important;
+}
+.ordersManagement-bars-container .ant-calendar-range-picker-input {
+  padding-right: 1vw;
+}
+.ordersManagement-bars-container .ant-calendar-range-picker-separator {
+  padding-right: 1vw;
+}
+.ant-calendar-range-middle {
+  left: 69% !important;
+}
+.ordersManagement-bars-container .ordersManagement_error-class {
+  text-align: center !important;
+  font-weight: 1000 !important;
+  padding: 2vh !important;
+  margin-top: 44px;
+}
+.ant-calendar {
+  direction: rtl !important;
+}
+.ant-calendar-picker {
+  direction: rtl;
+  border-radius: 2px !important;
+}
+.ant-calendar-body {
+  direction: rtl !important;
+}
+.ant-calendar-range .ant-calendar-month-panel-body {
+  direction: rtl !important;
+}
+.ant-calendar-range .ant-calendar-year-panel-body {
+  direction: rtl !important;
+}
+.ant-calendar-range-left {
+  float: right !important;
+}
+.ant-calendar-range-right {
+  float: left !important;
+}
+.ant-calendar-header .ant-calendar-prev-year-btn {
+  left: 15rem !important;
+}
+.ant-calendar-header .ant-calendar-prev-month-btn {
+  left: 14rem !important;
+}
+.ant-calendar-header .ant-calendar-next-month-btn {
+  right: 14rem !important;
+}
+.ant-calendar-header .ant-calendar-next-year-btn {
+  right: 15rem !important;
+}
+.ant-calendar-picker:hover .ant-calendar-picker-input:not(.ant-input-disabled) {
+  border-color: var(--main-component-color, #212a63);
+}
+.ant-calendar-selected-date .ant-calendar-date:hover,
+.ant-calendar-selected-start-date .ant-calendar-date:hover,
+.ant-calendar-selected-end-date .ant-calendar-date:hover {
+  background: var(--main-component-color, #212a63) !important;
+}
+.ordersManagement-bars-container input[type="text"],
+input[type="password"],
+input[type="number"],
+textarea {
+  -webkit-appearance: none;
+  direction: rtl;
+}
+.ordersManagement-bars-container .ant-input {
+  width: 17.5vw !important;
+  border-radius: 2px !important;
+  border-color: #ffffff !important;
+  border-color: #ece8e8 !important;
+  box-shadow: 0 1.7px 2px #ccc !important;
+  margin-left: 3.45vw;
+  overflow: hidden;
+}
+.ordersManagement_status-filter-input {
+  top: 34.6px;
+}
+.ordersManagement_filter-button {
+  top: 34.5px;
+  width: 15vw;
+  height: 34px;
+}
+.ordersManagement-bars-container .ant-btn-primary {
+  background-color: #ff4343;
+  border-color: #fff;
+  box-shadow: 0 0 0;
+  border-radius: 2px;
+}
+.ordersManagement-bars-container .ant-btn-primary:hover,
+.ordersManagement-bars-container .ant-btn-primary:focus {
+  color: #fff;
+  background-color: #f42020;
+  border-color: #ffffff;
+}
+.ordersManagement_addOrder-button {
+  width: 14vw;
+  height: 34px;
+  background: #28a745 !important;
+  border-color: #fff;
+  box-shadow: 0 0 0;
+  border-radius: 0px 5px;
+  margin-bottom: 15px;
+  margin-top: 15px;
+}
+.ordersManagement_addOrder-button:hover,
+.ordersManagement_addOrder-button:focus {
+  background: #178c31 !important;
+}
+.ordersManagement_error-class {
+  text-align: center !important;
+  font-weight: 1000 !important;
+  padding: 2vh !important;
+  margin-top: 44px;
+}
+.ordersManagement-bars-container .table-dropdown {
+  text-align: right;
+  padding: 0.5rem;
+  direction: rtl;
+  color: #2b2a37;
+  font-weight: 400;
+  margin-right: 2vw;
+  margin-top: 0px;
+}
+@media only screen and (max-width: 1000px) {
+  .ordersManagement_addOrder-button {
+    font-size: 77%;
+    left: 4vw;
+  }
+  .ordersManagement_addOrder-button {
+    font-size: 77%;
+    left: 4vw;
+    padding: 1vw;
+  }
+  .ordersManagement_filter-button {
+    width: 15vw;
+    left: 4vw;
+    font-size: 77%;
+    padding: 1vw;
+  }
+}

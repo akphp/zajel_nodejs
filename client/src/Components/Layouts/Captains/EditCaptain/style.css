@@ -1,0 +1,52 @@
+.edit-captain-container-left {
+  width: 40%;
+}
+
+.edit-captain-container-right {
+  width: 47%;
+}
+
+.edit-captain-container-center {
+  margin: 0.1rem 1.2rem;
+  background-color: #e0e0e0;
+  height: 30.5rem;
+}
+
+.edit-captain__form {
+  width: 100%;
+  display: flex;
+  margin-left: 0rem;
+}
+
+.edit-captain__popup .ant-modal-content {
+  width: 147%;
+  left: 5rem;
+}
+
+.edit-captain__popup .ant-modal-title {
+  font-size: 20px;
+  font-family: cairo;
+  font-weight: bold;
+}
+
+.edit-captain__popup .ant-modal-body {
+  height: 28rem;
+}
+
+.edit-captain__popup form .ant-upload {
+  position: absolute;
+}
+
+.edit-captain__popup .image__name {
+  position: absolute;
+  top: 4rem;
+  right: 2rem;
+  width: 8rem;
+}
+
+.upload-photo {
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  padding: 7px;
+  width: 115px;
+}

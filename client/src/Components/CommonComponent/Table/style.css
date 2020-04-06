@@ -1,0 +1,399 @@
+input[type="text"]::placeholder {
+  text-align: right;
+}
+input[type="text"]:-ms-input-placeholder {
+  text-align: right;
+}
+.popupModal {
+  position: fixed !important;
+  font-family: Cairo;
+  right: calc(50% - 128px) !important ;
+  top: calc(50% - 216px) !important;
+}
+.ErrorPopupModal {
+  position: fixed !important;
+  font-family: Cairo;
+  right: calc(50% - 128px) !important ;
+  top: calc(50% - 216px) !important;
+}
+.ErrorPopupModal .ant-modal-content {
+  height: 347px;
+  text-align: center;
+  padding-top: 80px;
+}
+.popupModal p {
+  direction: rtl;
+}
+.popupModal .ant-modal-content {
+  width: 783px;
+}
+.popupModal .ant-modal-close {
+  left: 0 !important;
+}
+.ant-spin-container {
+  display: flow-root;
+  padding: 0.5%;
+}
+.table-container {
+  font-family: Cairo;
+  width: 75vw;
+  margin-left: 0.2vw;
+}
+.ant-table-pagination.ant-pagination {
+  display: none;
+}
+.ant-table {
+  direction: rtl;
+}
+.ant-table-tbody tr td {
+  text-align: center !important;
+}
+
+.ant-table-thead tr th {
+  text-align: center !important;
+}
+.ant-pagination-item {
+  display: none;
+}
+.ant-pagination-jump-next
+  .ant-pagination-item-container
+  .ant-pagination-item-ellipsis {
+  display: none;
+}
+.table-dropdown {
+  font-family: Cairo;
+  text-align: right;
+  padding: 0.5rem;
+  direction: rtl;
+  color: #2b2a37;
+  font-weight: 400;
+  margin-right: 2vw;
+  margin-top: 45px !important;
+}
+
+.ant-dropdown-menu {
+  text-align: right;
+  right: 0.6rem;
+  text-align: center !important;
+}
+.ant-dropdown-link {
+  color: #2b2a37;
+  font-weight: 600;
+}
+.ant-dropdown-link :hover {
+  cursor: pointer;
+}
+.swal2-modal .swal2-styled:focus {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+.popupModal .ant-modal-body {
+  padding: 0px 24px 24px 24px !important;
+}
+.popupModal .ant-modal-footer {
+  display: none;
+}
+.popupModal .ant-form {
+  padding: 2% 0 0 4%;
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: space-evenly;
+  height: 257px;
+}
+.popupModal .ant-col-sm-8 {
+  direction: rtl;
+  float: right;
+}
+.popupModal .ant-cascader-picker-label {
+  direction: rtl;
+}
+.popupModal .ant-cascader-picker-clear {
+  margin-right: 80%;
+}
+.popupModal .ant-cascader-picker-arrow {
+  margin-right: 80%;
+}
+.popupModal .has-error .ant-cascader-picker-arrow {
+  color: #f5222d;
+  margin-right: 84%;
+}
+.popupModal .ant-select-auto-complete.ant-select .ant-input {
+  direction: rtl;
+}
+.popupModal .ant-input-group .ant-input {
+  direction: rtl;
+}
+.popupModal .ant-cascader-input.ant-input {
+  direction: rtl;
+}
+.ant-cascader-menu {
+  border-right: 1px solid #989898 !important;
+  border-left: 0px solid #989898 !important;
+}
+.ant-cascader-menus {
+  left: calc(50% - 137px) !important;
+  direction: rtl;
+  position: fixed !important;
+}
+.ant-cascader-menu:first-child {
+  border-right: 1px solid #989898;
+}
+.ant-cascader-menu .anticon svg {
+  transform: scaleX(-1);
+  -moz-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  -ms-transform: scaleX(-1);
+  margin-right: 85px;
+}
+.popupModal .ant-form > div {
+  overflow: overlay;
+}
+.ant-cascader-menus > div {
+  position: fixed;
+  background: #fff;
+  display: flex;
+  direction: rtl;
+  z-index: 1200;
+}
+.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled),
+.ant-cascader-menu-item-active:not(.ant-cascader-menu-item-disabled) {
+  width: 108px;
+}
+.popupModal .ant-input-group .ant-input {
+  direction: rtl;
+  border-color: #c4c4c4;
+}
+.popupModal .ant-form-item-children {
+  display: flex;
+  justify-content: end;
+  flex-direction: row-reverse;
+}
+.popupModal .ant-btn {
+  width: 90px;
+  border-color: #ffffff;
+}
+.popupModal .ant-btn:hover {
+  width: 90px;
+  border-color: #ffffff;
+  background-color: #9e9e9e;
+}
+.popupModal .ant-btn:hover,
+.ant-btn:focus {
+  color: #000000;
+}
+.popupModal .ant-btn-primary {
+  background-color: #28a745;
+  color: #000000;
+}
+.popupModal .ant-btn-primary:hover,
+.ant-btn-primary:focus {
+  background-color: #178c31;
+}
+.ant-select-auto-complete.ant-select .ant-input:focus,
+.ant-select-auto-complete.ant-select .ant-input:hover {
+  border-color: #309bc3;
+  border-right-width: 1px !important;
+  direction: rtl;
+  text-align: right;
+}
+.popupModal
+  .ant-input-group
+  > .ant-input:first-child
+  .ant-select
+  .ant-select-selection,
+.ant-input-group-addon:first-child .ant-select .ant-select-selection {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  width: 77px;
+}
+.popupModal .has-error .ant-form-explain,
+.has-error .ant-form-split {
+  direction: rtl;
+}
+.has-error .ant-input:not([disabled]):hover {
+  direction: rtl;
+}
+.popupModal .marketAndButtonsDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  overflow: hidden !important;
+}
+.popupModal .ant-form-item-label > label::after {
+  content: ":";
+  position: relative;
+  top: -0.5px;
+  margin: 0 1px 0px 9px;
+}
+.ant-form label {
+  font-size: 14px;
+  font-weight: 600;
+}
+.popupModal input:not([type="range"]),
+label,
+select,
+summary,
+textarea {
+  direction: rtl;
+  border-color: #c4c4c4;
+}
+.popupModal .ant-form-item-required::before {
+  float: right;
+  margin-top: 15px;
+  margin-right: 4px;
+  margin-left: 4px;
+}
+.popupModal .cancelButton {
+  background-color: #c4c4c4;
+  margin-right: 22px;
+}
+.popupModal .modalHeader {
+  direction: rtl;
+  border-bottom: groove;
+  border-color: #2b2a374f;
+  border-width: 2px;
+  margin-bottom: 11px;
+  width: 106%;
+  margin-left: -22px;
+  display: flex;
+  height: 55px;
+  align-items: center;
+  padding-top: 12px;
+}
+.popupModal .modalHeader h2 {
+  margin-right: 15px;
+}
+.popupModal .ant-col-sm-8 {
+  display: block;
+  box-sizing: border-box;
+  width: 106px !important;
+}
+.popupModal .ant-row {
+  display: flex !important;
+  flex-direction: row-reverse !important;
+  justify-content: flex-end !important;
+  height: 30px;
+}
+.popupModal .ant-input-group-addon:first-child {
+  border-color: #c4c4c4 !important;
+}
+.popupModal .ant-select-auto-complete.ant-select .ant-input {
+  border-color: #c4c4c4 !important;
+}
+.popupModal .popupModal_storeName-manualInput {
+  width: 205px;
+}
+.popupModal .popupModal_storeName-label {
+  color: rgb(245, 34, 45);
+  float: right;
+  margin-right: 4px;
+  margin-left: 4px;
+  margin-top: 2px;
+}
+.popupModal .modalHeader .anticon > * {
+  font-size: 21px;
+  margin-bottom: 7px;
+  margin-right: 16px;
+}
+.ant-col-xs-24.ant-form-item-label {
+  display: flex;
+  width: 220px;
+}
+.ant-col-sm-offset-8 {
+  margin-left: 0% !important;
+  width: 220px;
+}
+.popupModal .popupModal_add-item-icon {
+  font-size: 20px;
+  color: #28a745;
+  position: absolute;
+  top: 15.8rem;
+  right: 27rem;
+}
+.popupModal_remove-item-icon {
+  font-size: 20px;
+  float: right;
+  margin-top: -46px;
+  margin-right: 90px;
+  color: #ff00008a;
+  position: relative;
+}
+.popupModal_form-items-container {
+  height: 55px;
+}
+.popupModal_formItem-item-price-container
+  .ant-form-item-control
+  .ant-form-explain {
+  top: 33.3px;
+  position: absolute;
+  right: 0;
+}
+.popupModal
+  .popupModal_formItem-item-price-container
+  .ant-form-item-control
+  .ant-form-item-children
+  .ant-form-item-with-help
+  .ant-col
+  .ant-form-item-control
+  .ant-form-explain {
+  margin-top: 0px;
+  width: 47px;
+  font-size: 10px !important;
+}
+.popupModal .ant-form-horizontal > div:first-child {
+  height: 250px;
+}
+.popupModal_item-price-input {
+  width: 48.77px;
+}
+.popupModal .popupModal_item-extra-input {
+  width: 200x !important;
+}
+.popupModal_error-class {
+  text-align: center !important;
+  font-weight: 1000 !important;
+  padding: 2vh !important;
+  margin-top: 44px;
+}
+.popupModal .has-error .ant-form-explain,
+.has-error .ant-form-split {
+  font-size: 10px !important;
+  float: right !important;
+}
+.ViewPopup .ant-col-xs-24.ant-form-item-label {
+  display: flex;
+  width: 86px !important;
+}
+.ViewPopup .marketAndButtonsDiv {
+  align-items: center;
+  justify-content: space-evenly !important;
+}
+.ViewPopup .marketAndButtonsDiv .cancelButton {
+  width: 260px !important;
+  margin-right: 5.5px !important;
+  background-color: #28a745 !important;
+  margin-top: 0px !important;
+}
+.ViewPopup .marketAndButtonsDiv .cancelButton:hover {
+  width: 260px !important;
+  margin-right: 5.5px !important;
+  background-color: #178c31 !important;
+}
+.popupModal .show-help-enter {
+  width: 39px;
+  font-size: 10px !important;
+  display: none;
+}
+.popupModal .extra-item-price .ant-form-explain {
+  width: 47px !important;
+}
+.popupModal .main-extra-items-wrapper {
+  margin-top: 33px;
+}
+.ViewPopup .ant-modal-content {
+  height: 322px;
+}
+.ViewPopup .ant-form-horizontal > div:first-child {
+  height: 238px;
+  padding-top: 21px;
+}
